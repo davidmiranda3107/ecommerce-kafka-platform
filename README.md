@@ -24,6 +24,7 @@ The platform is composed of multiple **independent microservices**, each owning 
 | Service | Description | Port | Database |
 |-------|------------|------|---------|
 | **user-service** | User management, authentication, JWT | 8081 | users_db |
+| **product-service** | Product and Categories management | 8082 | products_db |
 
 ---
 
@@ -33,6 +34,12 @@ Kafka is used as the **central event bus** for the system.
 
 ### Main topics:
 - `user.created`
+- `category.created`
+- `category.updated`
+- `category.deleted`
+- `product.created`
+- `product.updated`
+- `product.deleted`
 
 Each service **publishes domain events** and **reacts to events** from other services.
 
