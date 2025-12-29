@@ -26,7 +26,7 @@ The platform is composed of multiple **independent microservices**, each owning 
 | **user-service** | User management, authentication, JWT | 8081 | users_db |
 | **product-service** | Product and Categories management | 8082 | products_db |
 | **order-service** | Orders management | 8083 | orders_db |
-| **inventory-service** | Orders management | 8084 | inventory_db |
+| **inventory-service** | Inventory management | 8084 | inventory_db |
 
 ---
 
