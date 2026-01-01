@@ -1,4 +1,4 @@
-package com.david.ecommerce.inventory.domain;
+package com.david.ecommerce.inventory.controller;
 
 import com.david.ecommerce.inventory.domain.dto.InventoryRequest;
 import com.david.ecommerce.inventory.domain.dto.InventoryResponse;
